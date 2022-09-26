@@ -7,7 +7,7 @@ Console.WriteLine($"Current directory is '{Environment.CurrentDirectory}'");
 Directory.SetCurrentDirectory(path);
 Console.WriteLine($"Current directory is '{Environment.CurrentDirectory}'");
 
-Console.WriteLine(ReplacePeriod(path));
+Console.WriteLine(ReplacePeriod(path)); 
 
 string ReplacePeriod(string path)
 {
